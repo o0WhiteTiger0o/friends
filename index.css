@@ -8,7 +8,7 @@
 }
 body{
     overflow-x: hidden;
-    background-image: url('./pics/R.jpg');
+    background-image: url('./pics/spring_waterfall_stone_fog_mist_green_forest_4k_hd_nature.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -120,7 +120,7 @@ nav{
 @media screen and (max-width: 500px){
     body{
         overflow-x: hidden;
-        background-image: url('./pics/lucky.png');
+        background-image: url('./pics/186078bcac90e218f714ecfdd4efb400.jpg');
         background-size:cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
