@@ -6,6 +6,16 @@
     letter-spacing: 1px;
     font-weight: 300;
 }
+
+section{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    border-radius: 25%;
+    color:#131418;
+    position: fixed;
+ }
+
 body{
     overflow-x: hidden;
     background-image: url('./pics/spring_waterfall_stone_fog_mist_green_forest_4k_hd_nature.jpg');
@@ -116,8 +126,9 @@ nav{
     display: none;
 }
 
+
 /*Stying for small screens*/
-@media screen and (max-width: 500px){
+@media all and (max-width: 800px){
     body{
         overflow-x: hidden;
         background-image: url('./pics/186078bcac90e218f714ecfdd4efb400.jpg');
