@@ -135,3 +135,122 @@ header {
 p{
   text-align: justify;
 }
+.content {
+  padding: 1%;
+}
+footer{
+  margin:2%;
+}
+
+/*pagination*/
+
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap');
+body{
+  background:#CDDC39;
+  font-family: 'Arimo', sans-serif;
+}
+h2{
+  color:#000;
+  text-align:center;
+  font-size:2em;
+}
+.warpper{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab{
+  cursor: pointer;
+  padding:10px 20px;
+  margin:0px 2px;
+  background:#000;
+  display:inline-block;
+  color:#fff;
+  border-radius:3px 3px 0px 0px;
+  box-shadow: 0 0.5rem 0.8rem #00000080;
+}
+.panels{
+  background:#fffffff6;
+  box-shadow: 0 2rem 2rem #00000080;
+  min-height:200px;
+  width:100%;
+  max-width:95%;
+  border-radius:25px;
+  overflow:hidden;
+  padding:20px;  
+
+}
+.panel{
+  display:none;
+  animation: fadein .8s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.panel-title{
+  font-size:1.5em;
+  font-weight:bold
+}
+.radio{
+  display:none;
+}
+#one:checked ~ .panels #one-panel,
+#two:checked ~ .panels #two-panel,
+#three:checked ~ .panels #three-panel,
+#four:checked ~ .panels #four-panel,
+#five:checked ~ .panels #five-panel,
+#six:checked ~ .panels #six-panel,
+#seven:checked ~ .panels #seven-panel,
+#eight:checked ~ .panels #eight-panel,
+#nine:checked ~ .panels #nine-panel,
+#ten:checked ~ .panels #ten-panel,
+#eleven:checked ~ .panels #eleven-panel,
+#twelve:checked ~ .panels #twelve-panel{
+  display:block
+}
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab,
+#three:checked ~ .tabs #three-tab,
+#four:checked ~ .tabs #four-tab,
+#five:checked ~ .tabs #five-tab,
+#six:checked ~ .tabs #six-tab,
+#seven:checked ~ .tabs #seven-tab,
+#eight:checked ~ .tabs #eight-tab,
+#nine:checked ~ .tabs #nine-tab,
+#ten:checked ~ .tabs #ten-tab,
+#eleven:checked ~ .tabs #eleven-tab,
+#twelve:checked ~ .tabs #twelve-tab{
+  background:#fffffff6;
+  color:#000;
+  border-top: 3px solid #000;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+  .warpper {
+    flex-direction: column;
+  }
+
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Optional: center the tabs on smaller screens */
+    
+  }
+
+  .tab {
+    margin: 10px; /* Add spacing between tabs */
+  }
+
+  .panels {
+    width: 90%; /* Ensure full width on smaller screens */
+  }
+
+}
+

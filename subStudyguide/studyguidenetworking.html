@@ -6,15 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="../pics/5f7b494598ab2f0dda9cfb4dc5e4775c.png" type="image/icon type">
     <link rel="stylesheet" href="./netwoking/networking.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Joseph</title>
 </head>
 <body>
-<!-- testingslider menus -->
-<head>
-  <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
-</head>
-<body>
-  
+
+
   <!-- navigation -->
 <div id="header-wrapper">
   <nav id="nav" role="navigation">
@@ -23,12 +20,7 @@
     </div>
     <h3>Menu</h3>
     <ul><li><a href="./studyguide.html">HOME</a></li></ul>
-    
-    <ul>
-      <li><a href="#ch1">Module 1</a></li>
-      <li><a href="#ch2">Chapter 2</a></li>
-      <li><a href="#ch3">Chapter 3</a></li>
-    </ul>
+
   </nav>
   <a href="#open-link" id="outer-close-overlay"></a>
 </div>
@@ -42,51 +34,166 @@
 <header id="top" role="banner">
   <h2>STUDY GUIDE FOR NETWORKING</h2>
 </header>
-<div id="content-wrapper">
-  <article class="content" role="main">
-    <h3 id="ch1">Module 1</h3>
-    <ul>
-      <li>
-        <p class="title">Compare physical topology with logical topology:</p>
-        <p>- Physical topology mostly prefer to a network's hardware and how computer, other devices, and cables or radio signals work together to form the physical network.
-          while logical topology mostly prefer to how software controls access to network resources and how specific resources such as applications and database
-          are shared on the network.
-        </p>
-      </li>
-      <li>
-        <p class="title">Describe a client-server network model in contrast with a <b>peer-to-peer(p2p)</b> network model:</p>
-        <p><b><u>Peer-to-peer (p2p) network model:</b></u></p>
-        <p>- In a p2p network model, the operating system of each computer on the network is responsible for controlling access to its resources
-          without centralize control. The computers, called nodes or hosts on the network, form a logical group of computers and users that share resources.
-          Each computer on a p2p network controls its own administration, resources, and security.
-        </p>
-        <p><ul>
-          <li><i>Advantages and disadvantages of the p2p network model:</i></li>
-          <ul><u>Advantages:</u></ul>
-          <ol>
-            <li>They are simple to config.</li>
-            <li>They are less expensive to setup and maintain</li>
-          </ol>
-          <ul><u>Disadvantages:</u></ul>
-          <ol>
-            <li>They are not scalable. (Up to 15 computer)</li>
-            <li>They are not secure.</li>
-            <li>They are not practical for connecting more than 15 computers because it's too time comsumming to manage the resources on the network.</li>
-          </ol>
-        </ul></p>
-        <p><b><u>client-server network model:</b></u></p>
-        <p>- In the client-server network model, resources are managed by the <b>NOS(Network operating System)</b> via a centralizedirectory database.
-          The database can be managed by one or more servers, so long as they each have a similar NOS installed.</p>
-        <p>- When windows server controls access to a group of computers, this group is called a windows domain</p>
-        
-      </li>
-
-    </ul>
-    
-  </article>
-</div>
-</body>
+<!-- pagination-->
+<div class="warpper">
+  <input class="radio" id="one" name="group" type="radio" checked>
+  <input class="radio" id="two" name="group" type="radio">
+  <input class="radio" id="three" name="group" type="radio">
+  <input class="radio" id="four" name="group" type="radio">
+  <input class="radio" id="five" name="group" type="radio">
+  <input class="radio" id="six" name="group" type="radio">
+  <input class="radio" id="seven" name="group" type="radio">
+  <input class="radio" id="eight" name="group" type="radio">
+  <input class="radio" id="nine" name="group" type="radio">
+  <input class="radio" id="ten" name="group" type="radio">
+  <input class="radio" id="eleven" name="group" type="radio">
+  <input class="radio" id="twelve" name="group" type="radio">
+  <div class="tabs">
+  <label class="tab" id="one-tab" for="one">Module 1</label>
+  <label class="tab" id="two-tab" for="two">Module 2</label>
+  <label class="tab" id="three-tab" for="three">Module 3</label>
+  <label class="tab" id="four-tab" for="four">Module 4</label>
+  <label class="tab" id="five-tab" for="five">Module 5</label>
+  <label class="tab" id="six-tab" for="six">Module 6</label>
+  <label class="tab" id="seven-tab" for="seven">Module 7</label>
+  <label class="tab" id="eight-tab" for="eight">Module 8</label>
+  <label class="tab" id="nine-tab" for="nine">Module 9</label>
+  <label class="tab" id="ten-tab" for="ten">Module 10</label>
+  <label class="tab" id="eleven-tab" for="eleven">Module 11</label>
+  <label class="tab" id="twelve-tab" for="twelve">Module 12</label>
+    </div>
+  <div class="panels">
+  <div class="panel" id="one-panel">
+    <article class="content" role="main">
+      <ul>
+        <li>
+          <p class="title">Compare physical topology with logical topology:</p>
+          <p>- Physical topology mostly prefer to a network's hardware and how computer, other devices, and cables or radio signals work together to form the physical network.
+            while logical topology mostly prefer to how software controls access to network resources and how specific resources such as applications and database
+            are shared on the network.
+          </p>
+        </li>
+        <li>
+          <p class="title">Describe a client-server network model in contrast with a <b>peer-to-peer(p2p)</b> network model:</p>
+          <p><b><u>Peer-to-peer (p2p) network model:</b></u></p>
+          <p>- In a p2p network model, the operating system of each computer on the network is responsible for controlling access to its resources
+            without centralize control. The computers, called nodes or hosts on the network, form a logical group of computers and users that share resources.
+            Each computer on a p2p network controls its own administration, resources, and security.
+          </p>
+          <p><ul>
+            <li><i>Advantages and disadvantages of the p2p network model:</i></li>
+            <ul><u>Advantages:</u></ul>
+            <ol>
+              <li>They are simple to config.</li>
+              <li>They are less expensive to setup and maintain</li>
+            </ol>
+            <ul><u>Disadvantages:</u></ul>
+            <ol>
+              <li>They are not scalable. (Up to 15 computer)</li>
+              <li>They are not secure.</li>
+              <li>They are not practical for connecting more than 15 computers because it's too time comsumming to manage the resources on the network.</li>
+            </ol>
+          </ul></p>
+          <p><b><u>client-server network model:</b></u></p>
+          <p>- In the client-server network model, resources are managed by the <b>NOS(Network operating System)</b> via a centralizedirectory database.
+            The database can be managed by one or more servers, so long as they each have a similar NOS installed.</p>
+          <p>- When windows server controls access to a group of computers, this group is called a windows domain</p>
+          
+        </li>
   
+      </ul>
+      
+    </article>
+  </div>
+  <div class="panel" id="two-panel">
+    <article class="content" role="main">
+      <h3 id="ch2">Module 2</h3>
+      <h1>test2</h1>
+      
+    </article>
+  </div>
+  <div class="panel" id="three-panel">
+    <article class="content" role="main">
+      <h3 id="ch3">Module 3</h3>
+      <h1>test3</h1>
+      
+    </article>
+  </div>
+  <div class="panel" id="four-panel">
+    <article class="content" role="main">
+      <h3 id="ch4">Module 4</h3>
+      <h1>test4</h1>
+      
+    </article>
+  </div>
+  <div class="panel" id="five-panel">
+    <article class="content" role="main">
+      <h3 id="ch5">Module 5</h3>
+      <h1>test5</h1>
+      
+    </article>
+  </div>
+  <div class="panel" id="six-panel">
+    <article class="content" role="main">
+      <h3 id="ch6">Module 6</h3>
+      <h1>test6</h1>
+      
+    </article>
+  </div>
+  <div class="panel" id="seven-panel">
+    <article class="content" role="main">
+      <h3 id="ch7">Module 7</h3>
+      <h1>test7</h1>
+      
+    </article>
+  </div>
+  <div class="panel" id="eight-panel">
+    <article class="content" role="main">
+      <h3 id="ch8">Module 8</h3>
+      <h1>test8</h1>
+      
+    </article>
+  </div>
+  <div class="panel" id="nine-panel">
+    <article class="content" role="main">
+      <h3 id="ch9">Module 9</h3>
+      <h1>test9</h1>
+      
+    </article>
+  </div>
+  <div class="panel" id="ten-panel">
+    <article class="content" role="main">
+      <h3 id="ch10">Module 10</h3>
+      <h1>test10</h1>
+      
+    </article>
+  </div>
+  <div class="panel" id="eleven-panel">
+    <article class="content" role="main">
+      <h3 id="ch11">Module 11</h3>
+      <h1>test11</h1>
+      
+    </article>
+  </div>
+  <div class="panel" id="twelve-panel">
+    <article class="content" role="main">
+      <h3 id="ch12">Module 12</h3>
+      <h1>test12</h1>
+      
+    </article>
+  </div>
+  <!--
+  <div class="panel" id="two-panel">
+    <div class="panel-title">Take-Away Skills</div>
+    <p>You will learn many aspects of styling web pages! You’ll be able to set up the correct file structure, edit text and colors, and create attractive layouts. With these skills, you’ll be able to customize the appearance of your web pages to suit your every need!</p>
+  </div>
+  <div class="panel" id="three-panel">
+    <div class="panel-title">Note on Prerequisites</div>
+    <p>We recommend that you complete Learn HTML before learning CSS.</p>
+  </div> -->
+  </div>
+</div>
+<footer></footer>
   <script src="./netwoking/networking.js"></script>
 </body>
 </html>
