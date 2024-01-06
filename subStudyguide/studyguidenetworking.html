@@ -66,6 +66,7 @@
   <div class="panel" id="one-panel">
     <article class="content" role="main">
       <ul>
+        <!--Remember in the book page 6-->
         <li>
           <p class="title">Compare physical topology with logical topology:</p>
           <p>- Physical topology mostly prefer to a network's hardware and how computer, other devices, and cables or radio signals work together to form the physical network.
@@ -89,18 +90,70 @@
             </ol>
             <ul><u>Disadvantages:</u></ul>
             <ol>
-              <li>They are not scalable. (Up to 15 computer)</li>
+              <li>They are not scalable. (Up to 15 computers)</li>
               <li>They are not secure.</li>
-              <li>They are not practical for connecting more than 15 computers because it's too time comsumming to manage the resources on the network.</li>
+              <li>They are not practical for connecting more than 15 computers because it's too time comsuming to manage the resources on the network.</li>
             </ol>
           </ul></p>
           <p><b><u>client-server network model:</b></u></p>
           <p>- In the client-server network model, resources are managed by the <b>NOS(Network operating System)</b> via a centralizedirectory database.
             The database can be managed by one or more servers, so long as they each have a similar NOS installed.</p>
           <p>- When windows server controls access to a group of computers, this group is called a windows domain</p>
+          <p>- The centralize directory database that contains user account information and security for the entire group of computers is called 
+            <b>AD(Active Directory)</b>. </p>
+          <p>- A user can sign on to the network from any computer on the network to get the access to the resources that active directory allows. This process is managed by <b>AD DS(Active Directory Domain Services)</b></p>
+          <p><u>Advantages of client-server network model:</u></p>
+          <p>- User account and passwords to the network are assigned in one place.</p>
+          <p>- Access to multiple resources can be centrally granted to a single user or group of users.</p>
+          <p>- Problems on the network can be monitored, diagnosed, and often fixed from one location.</p>
+          <p>- Client-Server networks are more scalable than p2p networks.</p>
+        </li>
+        <li>
+          <p class="title">Explain the role of AD(Active Directory) in a windows domain:</p>
+          <p>The role of AD in a windows domain is monotored and managed the database for the entire domain.</p>
+        </li>
+        <!--End OF remember in the book page 6-->
+        <!--Remember in the book page 10-->
+        <li>
+          <p class="title">Explain the purposes of various network services:</p>
+          <ul>
+            <li>
+              <p><b>Web service:</b> serves up webpages to clients. The primary protocol used by web servers and <b><u>browsers(Clients)</u></b> is <b><u>HTTP(Hypertext Transfer Protocol)</u></b>.
+              When HTTP is layered on top of an encryption protocol, such as <b><u>SSL(Secure Sockets Layer) or TLS(Transport Layer Security)</u></b>, the result is <b><u>HTTPS(HTTP Secure).</u></b>
+            which gives a secure transmission.</p>
+            </li>
+            <li>
+              <p><b>Email services:</b> is a client-server application that involves two servers. The client uses <b><u>SMTP(Simple Mail Transfer Protocol)</u></b> to send an emails message to the first server, which is sometimes called
+              the SMTP server. The first server sends the message on to the receiver's mail server, where it's stored until the recipient requests delivery.
+            The recipient's mail server deliver's the message to the receiving client using one of two protocols: <b><u>POP3(Post Office Protocol, version 3) or IMAP4(Internet Message Access Protocol, version 4)</u></b>.</p>
+            </li>
+            <li>
+              <p><b>DNS service:<u>DNS(Domain Name System)</u></b>  helps clients find web servers over a network such as the Internet.</p>
+            </li>
+            <li>
+              <p><b>FTP service:</b>is a client-server application that transfers file between two computers and it primarily uses <b><u>FTP(File Transfer Protocol)</u></b></p>
+            </li>
+            <li>
+              <p><b>Database services:</b> serve as a container for massive amounts of data that can be organized into tables and records.Users and applications
+              can then access and interact with the data that is stored on a database server.  DBMS(Database management system) is a software installed
+              on the database server. It is responsible for making requested changes to the data and organizing the data for viewing, reporting, or exporting.
+              Many DBMSs use the programing language such as <b><u>SQL(Structured Query Language), Microsoft SQL Server, Oracle Database, and the open-source MySQL.</u></b></p>
+            </li>
+            <li>
+              <p><b>Remote access service:</b>allows an administrator or other user to "remote in" to access a remote computer from the technician's local device
+              to control the computer remotely. The <b><u>Telnet</u></b> protocol is a comman-line application included in many operating systems, but transmission is not encrypted.
+              The SSH command in Linux uses the <b><u>SSH(secure shell)</u></b> protocol, which creates an encrypted channel or tunnel between two computers and provides
+              security that Telnet lacks.In windows operating systems, <b><u>RDP(remote desktop protocol)</u></b> also provide secure, encrypted transmissions.</p>
+            </li>
+          </ul>
+            <!--End OF remember in the book page 10-->
+            <!--Remember in the book page 16-->
+            <li>
+              <p></p>
+            </li>
+            <!--End OF remember in the book page 10-->
           
         </li>
-  
       </ul>
       
     </article>
